@@ -1,0 +1,126 @@
+* {
+   
+        margin: 0;
+        padding: 0;
+        background-image: url("pngwing.com.png"); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+ }
+    
+ .miTexto {
+    color: rgb(0, 61, 131);
+}
+
+
+html {
+    font-size: 75%;
+}
+
+.container {
+    background-color: #a1a1a1;
+    height: 100vh;
+    width: 100%;
+    font-family: "share tech", sans-serif;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 3.8rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px; 
+    color: rgb(9, 51, 37);
+}
+
+ul li {
+    color: rgb(7, 85, 85);
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline;
+    padding: 6px 20px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+ul li:hover {
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 167, 0);
+    color: #fff;
+}
+
+
+header {
+    position: absolute;
+    bottom: 20%;
+    padding: 0 50px;
+    color: rgb(2, 2, 2);
+}
+
+header h1 {
+    font-size: 7rem;
+}
+
+header h2 {
+    font-size: 4rem;
+}
+
+header p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+header button {
+    padding: 0 5px;
+    width: 140px;
+    outline: none;
+    border: 0;
+    height: 40px;
+    font-weight: 500;
+    background-color: #ff4321;
+    transition: width 0.5s; 
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+}
+
+header button img {
+    display: none;
+}
+
+header button:hover img {
+    display: block;
+}
+
+header button:hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+}
+
+.container.emp {
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    right: 7%;
+    bottom: 0;
+    z-index: 999; 
+}
+
+.container .fondo-emp {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    right: 9%;
+    bottom: 0;
+}
