@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Opinión Tienda Deportiva</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Opinión sobre la Tienda Deportiva</h2>
+        <form action="formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="opinion">Opinión:</label>
+            <textarea id="opinion" name="opinion" rows="4" required></textarea>
+
+            <label for="calificacion">Calificación:</label>
+            <select id="calificacion" name="calificacion" required>
+                <option value="excelente">Excelente</option>
+                <option value="bueno">Bueno</option>
+                <option value="regular">Regular</option>
+                <option value="malo">Malo</option>
+            </select>
+
+            <button type="submit">Enviar Opinión</button>
+        </form>
+    </div>
+</body>
+</html>
